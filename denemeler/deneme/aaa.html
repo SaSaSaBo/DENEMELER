@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Student Record Keeping System</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Student Record Keeping System</h1>
+
+        <!-- Add your HTML forms and elements here for data entry and retrieval -->
+        <div class="container">
+            <div class="buttons">
+                <button class="sbuttona" type="submit">Admin</button>
+                <button class="sbuttons" type="submit">Student</button>
+            </div>
+            
+
+            <br>
+            <br>
+            <br>
+            <hr>
+            <br>
+            <br>
+
+
+    
+            <form id="studentForm" action="insert_data.php" method="post">
+    
+                <label for="studentName">Student Name:</label>
+                <input type="text" id="studentName" name="studentName" required>
+    
+                <label for="contactDetails">Contact Details:</label>
+                <input type="text" id="contactDetails" name="contactDetails">
+    
+                <!-- Additional fields for other tables (Course, Marks, Fee, ConcessionScholarship) can be added here -->
+    <br>
+    <br>
+                <div class="submitb">
+                    <button class="ssbutton" type="submit">Submit</button>
+                </div>
+                
+            </form>
+        </div>
+
+
+        <!-- Example: Display list of students -->
+        <div>
+            <ul id="studentList"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

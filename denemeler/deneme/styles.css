@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.buttons {
+    display: flex;
+    justify-content: center
+}
+
+.sbuttona {
+    height: 50px;
+    width: 100px;
+    background-color: rgba(255, 0, 0, 0.474);
+    padding: 10px 20px;
+    font-size: 18px;
+    text-align: center;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-color: rgba(92, 0, 0, 0.474);
+}
+
+.sbuttons {
+    height: 50px;
+    width: 100px;
+    background-color: rgba(255, 0, 0, 0.474);
+    padding: 10px 20px;
+    font-size: 18px;
+    text-align: center;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-color: rgba(92, 0, 0, 0.474);
+}
+
+.submitb {
+    text-align: right;
+}
+
+.ssbutton {
+    height: 50px;
+    width: 100px;
+    background-color: rgb(140, 255, 0);
+    border-radius: 15px;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-align: center;
+    border-color: rgb(15, 145, 0);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
